@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIImage+Extension.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIImageView *iv = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
+    iv.center = self.view.center;
+    
+    UIImage *image = [UIImage imageNamed:@"01.jpg"];
+    [image pt_cornerImageWithSize:iv.bounds.size fillColor:[UIColor whiteColor] completed:^(UIImage *image) {
+        
+        iv.image = image;
+        
+    }];
+    
+    [self.view addSubview:iv];
+    
 }
 
 

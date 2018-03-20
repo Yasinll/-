@@ -13,6 +13,8 @@
 		CD1B00551FF175F60058FEA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1B00541FF175F60058FEA1 /* Assets.xcassets */; };
 		CD1B00581FF175F60058FEA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1B00561FF175F60058FEA1 /* LaunchScreen.storyboard */; };
 		CD1B005B1FF175F60058FEA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1B005A1FF175F60058FEA1 /* main.m */; };
+		CD1B00621FF1760B0058FEA1 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD1B00611FF1760B0058FEA1 /* 01.jpg */; };
+		CD1B00651FF176E90058FEA1 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1B00641FF176E90058FEA1 /* UIImage+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		CD1B00571FF175F60058FEA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD1B00591FF175F60058FEA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD1B005A1FF175F60058FEA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD1B00611FF1760B0058FEA1 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		CD1B00631FF176E90058FEA1 /* UIImage+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		CD1B00641FF176E90058FEA1 /* UIImage+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +63,13 @@
 		CD1B004A1FF175F60058FEA1 /* 异步绘制圆角图像 */ = {
 			isa = PBXGroup;
 			children = (
+				CD1B00611FF1760B0058FEA1 /* 01.jpg */,
 				CD1B004B1FF175F60058FEA1 /* AppDelegate.h */,
 				CD1B004C1FF175F60058FEA1 /* AppDelegate.m */,
 				CD1B004E1FF175F60058FEA1 /* ViewController.h */,
 				CD1B004F1FF175F60058FEA1 /* ViewController.m */,
+				CD1B00631FF176E90058FEA1 /* UIImage+Extension.h */,
+				CD1B00641FF176E90058FEA1 /* UIImage+Extension.m */,
 				CD1B00511FF175F60058FEA1 /* Main.storyboard */,
 				CD1B00541FF175F60058FEA1 /* Assets.xcassets */,
 				CD1B00561FF175F60058FEA1 /* LaunchScreen.storyboard */,
@@ -131,6 +139,7 @@
 			files = (
 				CD1B00581FF175F60058FEA1 /* LaunchScreen.storyboard in Resources */,
 				CD1B00551FF175F60058FEA1 /* Assets.xcassets in Resources */,
+				CD1B00621FF1760B0058FEA1 /* 01.jpg in Resources */,
 				CD1B00531FF175F60058FEA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +154,7 @@
 				CD1B00501FF175F60058FEA1 /* ViewController.m in Sources */,
 				CD1B005B1FF175F60058FEA1 /* main.m in Sources */,
 				CD1B004D1FF175F60058FEA1 /* AppDelegate.m in Sources */,
+				CD1B00651FF176E90058FEA1 /* UIImage+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
